@@ -8,28 +8,48 @@
      background-color: #3161e0; 
 
 } */
+/* comon */
+.hero, .container{
+    max-width: 1080px;
+    margin:auto;
+}
 
 /* header */
-.container{
-    max-width: 1080px;
-    background-color:  #3161e0;;
-    margin:auto;
-    height: 70px;
-    vertical-align: middle;
+header{
+    background-image: url("../img/jumbo.png");
+    width: 100%;
+    height: 600px; 
+    background-size: cover;
+    position:relative;
+    
 }
+.container{
+    
+    /* background-color:  #3161e0; */
+    border: 2px solid black;
+    height: 70px;
+   
+    
+}
+
 .link-nav, .logo-nav, .button-nav{
     float:left;
 
 }
 .logo-nav{
+    height: 70px;
+    /* perché devo dare altezza?? */
     width: 25%;
     position: relative;
 }
 .link-nav {
+    
     width: 50%;
     position: relative;
+
     
 }
+
 .link-nav li{
     
     display: inline-block;
@@ -40,6 +60,7 @@ a{
     color: white;   
 }
 .button-nav{
+    height: 70px;
     width: 25%;
     position:relative;
     
@@ -51,9 +72,19 @@ button{
     padding:8px;
     border-radius: 20px;
 }
-#logo-discord, ul {
+ #logo-discord, button {
     
-    /* position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50% -50%); */
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); 
+}
+    .hero{
+        color: white;
+        font-size: xx-large;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+     
+    }

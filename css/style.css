@@ -4,38 +4,36 @@
     box-sizing: border-box;
 }
 
-/* body{
-     background-color: #3161e0; 
 
-} */
 /* comon */
-.hero, .container{
-    max-width: 1080px;
-    margin:auto;
-}
 .clearfix::after{
     content: "";
     display: block;
     clear: both;
 }
+.hero, .container{
+    max-width: 1080px;
+    margin:auto;
+}
 
+.container{  
+ padding-top:15px;    
+}
 /* header */
 header{
+    position: relative;
     background-image: url("../img/jumbo.png");
     width: 100%;
     height: 600px; 
     background-size: cover;
-    
+    text-align: center;
+  
+}
+.barra-nav{
+    height: 70px;
+   
+}
 
-    
-    
-}
-.container{
-   
-   padding-top:15px;
-   
-    
-}
 
 .link-nav, .logo-nav, .button-nav{
     float:left;
@@ -43,41 +41,40 @@ header{
 
 .logo-nav{   
     width: 25%;  
+    
+    line-height: 70px;
+    
 }
 
 .link-nav {
-    
-    width: 50%;
+      width: 50%;
+      line-height: 70px;
+      
         
 }
 
-.link-nav li{
-     
+.link-nav li{     
     display: inline-block;
     margin-left: 10px;
 }
-a{
-    
 
+.button-nav{ 
+    width: 25%;   
+    vertical-align: middle;
+    line-height: 70px;
+
+     
+}
+a{
     text-decoration: none;
     color: white;   
 }
-.button-nav{ 
-    width: 25%;
-    position:relative;
-    
-     
-
-}
 button{
     background-color:  white;
-    padding:8px;
+    padding:10px;
     border-radius: 20px;
     
-     
 }
-
-    
 
 .hero{
         margin:20px 0;
@@ -152,4 +149,14 @@ background-image: url("../img/stars.svg");
 }
 .parte-5 button:hover{
     background-color: #8ea1e1;
+}
+
+/* footer */
+
+.img-flag{
+ width: 50%;
+}
+.text-col-1{
+    color: red;
+    
 }

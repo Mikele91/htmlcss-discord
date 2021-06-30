@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+     background-color: #3161e0; 
+
+} */
+
+/* header */
+.container{
+    max-width: 1080px;
+    background-color:  #3161e0;;
+    margin:auto;
+    height: 70px;
+    vertical-align: middle;
+}
+.link-nav, .logo-nav, .button-nav{
+    float:left;
+
+}
+.logo-nav{
+    width: 25%;
+    position: relative;
+}
+.link-nav {
+    width: 50%;
+    position: relative;
+    
+}
+.link-nav li{
+    
+    display: inline-block;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;   
+}
+.button-nav{
+    width: 25%;
+    position:relative;
+    
+     
+
+}
+button{
+    background-color:  white;
+    padding:8px;
+    border-radius: 20px;
+}
+#logo-discord, ul {
+    
+    /* position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50% -50%); */

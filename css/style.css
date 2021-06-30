@@ -13,6 +13,11 @@
     max-width: 1080px;
     margin:auto;
 }
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /* header */
 header{
@@ -20,7 +25,9 @@ header{
     width: 100%;
     height: 600px; 
     background-size: cover;
-    position:relative;
+    
+
+    
     
 }
 .container{
@@ -30,20 +37,26 @@ header{
     /* height: 70px; */
    text-align: center;
    padding-top:15px;
+   
     
 }
 
 .link-nav, .logo-nav, .button-nav{
     float:left;
+    
+
 
 }
 .logo-nav{
+   
     
     /* perché devo dare altezza?? */
     width: 25%;
     /* position: relative; */
 }
 .link-nav {
+    
+
     
     width: 50%;
     /* position: relative; */
@@ -53,15 +66,17 @@ header{
 
 .link-nav li{
     
+    
     display: inline-block;
     margin-left: 10px;
 }
 a{
+    
+
     text-decoration: none;
     color: white;   
 }
-.button-nav{
-    
+.button-nav{ 
     width: 25%;
     position:relative;
     
@@ -73,8 +88,12 @@ button{
     padding:8px;
     border-radius: 20px;
     
+     
 }
- #logo-discord, button {
+
+    
+
+ .logo-nav, button, .lista-nav {
     
    text-align: center;
 }
@@ -105,3 +124,19 @@ button{
         color: white;
         font-weight: 50px;
     }
+.img-sez-1{
+    float: left;
+    width: 50%;
+}
+.text-sez-1 h2{
+    margin: 30px;
+    
+
+}
+.text-sez-1{
+    width:300px;
+    float: right;
+    margin: 50px 0;
+    
+    font-weight: 600;
+}

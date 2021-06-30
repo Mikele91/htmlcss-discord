@@ -15,7 +15,7 @@
 }
 .clearfix::after{
     content: "";
-    display: table;
+    display: block;
     clear: both;
 }
 
@@ -31,11 +31,7 @@ header{
     
 }
 .container{
-    
-    /* background-color:  #3161e0; */
-    /* border: 2px solid black; */
-    /* height: 70px; */
-   text-align: center;
+   
    padding-top:15px;
    
     
@@ -43,30 +39,20 @@ header{
 
 .link-nav, .logo-nav, .button-nav{
     float:left;
-    
-
-
 }
-.logo-nav{
-   
-    
-    /* perché devo dare altezza?? */
-    width: 25%;
-    /* position: relative; */
+
+.logo-nav{   
+    width: 25%;  
 }
+
 .link-nav {
     
-
-    
     width: 50%;
-    /* position: relative; */
-
-    
+        
 }
 
 .link-nav li{
-    
-    
+     
     display: inline-block;
     margin-left: 10px;
 }
@@ -93,11 +79,7 @@ button{
 
     
 
- .logo-nav, button, .lista-nav {
-    
-   text-align: center;
-}
-    .hero{
+.hero{
         margin:20px 0;
         color: white;
         font-size: large;
@@ -105,38 +87,69 @@ button{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        text-align: center;
      
-    }
-    .hero p{
+}
+.hero p{
         margin: 50px 0 ;
     }
-    .fas{
+.fas{
         vertical-align: middle;
         padding: 0 3px;
         font-size: 18px;
     }
-    .hero button{
+.hero button{
         margin: 0 10px;
         border: none;
     }
-    .hero button:last-child{
+.hero button:last-child{
         background-color: black;
         color: white;
         font-weight: 50px;
     }
-.img-sez-1{
+.img-sez-1, .img-sez-2{
     float: left;
-    width: 50%;
+    width: 70%;
+
 }
-.text-sez-1 h2{
-    margin: 30px;
+.text-sez-1 h2, .text-sez-2 h2, .riga-4 h2{
+    margin: 30px 0;
     
 
 }
-.text-sez-1{
-    width:300px;
+.text-sez-1, .text-sez-2{
+    width:30%;
     float: right;
     margin: 50px 0;
-    
     font-weight: 600;
+}
+.text-sez-2{
+    float: left;
+}
+.img-sez-2{
+    float: right;
+}
+section{
+    padding:50px 0;
+}
+.riga-4{
+    text-align: center;
+}
+
+.parte-5{
+text-align: center;
+font-weight: large;
+height: 90px;
+width: 500px; 
+margin: auto;
+background-size: contain;
+background-repeat: no-repeat;
+background-image: url("../img/stars.svg");
+}
+.parte-5 button{
+    margin: 50px 0;
+    background-color:blue;
+}
+.parte-5 button:hover{
+    background-color: #8ea1e1;
 }

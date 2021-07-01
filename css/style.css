@@ -11,6 +11,10 @@
     display: block;
     clear: both;
 }
+body{
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+}
 .hero, .container{
     max-width: 1080px;
     margin:auto;
@@ -27,23 +31,29 @@ header{
     height: 600px; 
     background-size: cover;
     text-align: center;
+    
   
+}
+container barra-nav{
+    height: 70px;
 }
 .barra-nav{
     height: 70px;
    
 }
 
-
+.logo-discord{
+    vertical-align: middle;
+}
 .link-nav, .logo-nav, .button-nav{
     float:left;
 }
 
 .logo-nav{   
     width: 25%;  
-    
+    display: inline-block;
     line-height: 70px;
-    
+ 
 }
 
 .link-nav {
@@ -70,6 +80,7 @@ a{
     color: white;   
 }
 button{
+    display: inline-block;
     background-color:  white;
     padding:10px;
     border-radius: 20px;
